@@ -51,6 +51,7 @@ const Post = ({ post, setCurrentId }) => {
           m: "10px",
         }}
       >
+        
         <Typography variant="h6">{post.creator}</Typography>
         <Typography sx={{ padding: "0 16px 8px 17px" }} variant="body2">
           {moment(post.createdAt).format('L')}
